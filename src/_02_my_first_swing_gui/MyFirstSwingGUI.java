@@ -48,6 +48,9 @@ frame.pack();
 //no i do not see my message
 		// 12. Use the loadImage method to set the icon of the JLabel object.
 label.setIcon(loadImage(
+		
+		
+		
 		));
 		// 13. Re-pack the JFrame object.
 frame.pack();
