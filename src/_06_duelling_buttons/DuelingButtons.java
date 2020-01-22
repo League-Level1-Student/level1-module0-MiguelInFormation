@@ -61,7 +61,7 @@ frame.setTitle("Demanding Buttons");
 		else if(buttonPressed== rightButton) {
 			leftButton.setText("NO,Click MEEEE!");/* If the buttonPressed was the leftButton.... */
 			leftButton.setPreferredSize(BIG);
-			rightButton.setText("😡😡😡");
+			rightButton.setText("*sigh*");
 			rightButton.setPreferredSize(SMALL);
 		}
 
