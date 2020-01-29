@@ -6,4 +6,4 @@ public class Sound_effect_runner {
 public static void main(String[] args) {
 	new Sound_Machine().showButton();
 }
-}
+}10
