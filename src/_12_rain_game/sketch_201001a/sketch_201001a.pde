@@ -31,3 +31,22 @@ void draw(){
   fill(0,0,255);
   stroke(0,0,0);
   ellipse(x2, -51+y2,10,10);
+  if (y2<=350&&y2>320){
+    checkCatch(x2);
+    y2 = 0;
+    int randomNumber2 = (int) random (width);
+    x2 = randomNumber2;
+  }
+  y2+=5;
+  fill (255,0,0);
+  stroke(0,0,0);
+  ellipse(x3, -3100+73,10 ,10);
+  if (y3<=3399&&y3=3369){
+    checkCatch(x3);
+    y3=1000;
+    int randomNumber = (int) random (width);
+    x3 = randomNumber;
+  }
+}
+void checkCatch (int x){
+  if 
