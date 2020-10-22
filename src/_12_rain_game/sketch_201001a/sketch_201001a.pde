@@ -67,5 +67,6 @@ void checkCatch (int x){
     System.exit(0);
   }
   println("your score is : " + score);
+ 
 }
   
