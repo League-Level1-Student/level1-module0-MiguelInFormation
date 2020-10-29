@@ -13,6 +13,18 @@ void setup () {
 }
 
 void draw() {
-  if (mousepressed)
+  if (mousepressed) {
+    rotateImage(pictureOfRecord, x++);
+    image(pictureOfRecord,0,0);
+    song.play();
+  }
+  else {
+    song.pause();
+  }
+}
+
+void rotateImage (PImage image, int amountToRotate) {
+  translate(-image.width/2, -image.height/2);
+}
 
   
