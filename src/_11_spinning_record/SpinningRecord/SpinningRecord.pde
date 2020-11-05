@@ -13,7 +13,7 @@ void setup () {
 }
 
 void draw() {
-  if (mousepressed) {
+  if (mousePressed) {
     rotateImage(pictureOfRecord, x++);
     image(pictureOfRecord,0,0);
     song.play();
